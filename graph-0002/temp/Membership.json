@@ -1,15 +1,15 @@
 {
-  "name": "Bitcoin Hackerspace Network (BTCHackNet) - membership",
+  "name": "Bitcoin Hackerspace Network (BTCHackNet) - Membership",
   "issuer": "did:key:z6Mkgza8PyhXaCKYZr7ebHczB6mQs1JxvQkkQC5ZMnmFyKrq",
   "verificationMethodId": "did:key:z6Mkgza8PyhXaCKYZr7ebHczB6mQs1JxvQkkQC5ZMnmFyKrq#z6Mkgza8PyhXaCKYZr7ebHczB6mQs1JxvQkkQC5ZMnmFyKrq",
-  "description": "Credential representing a bitcoin hackerspace member, membership to the issuing hackerspace and membership to network of hackerspaces",
+  "description": "JSON schema for a verifiable credential issued to a member of a bitcoin hackerspace containing details about the member's membership to the issuer hackerspace and network of hackerspaces.",
   "schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",
     "properties": {
       "issuer": {
         "type": "object",
-        "description": "The details of the hackerspace issuing the credential.",
+        "description": "Details about the membership of the member holding the credential.",
         "properties": {
           "name": {
             "type": "string",
