@@ -51,6 +51,6 @@ Below are proposed credential schemas for the Bitcoin Hackerspace Network. If yo
 
 |        Version       |          Documentation         |     Title     |     Author    |
 |----------------------|--------------------------------|---------------|---------------|
-| [0](./graph-0000.md) |   [graph-0000](./graph-0000)   | GRAPH Process |  Bryan Nonni  |
-| [1](./graph-0001.md) |   [graph-0001](./graph-0001/)  |  Temp Schema  |  Bryan Nonni  |
-| [2](./graph-0002.md) |   [graph-0002](./graph-0002/)  |  Base Schemas |  Bryan Nonni  |
+| [0](./graph-0000.mediawiki) |   [graph-0000](./graph-0000)   | GRAPH Process |  Bryan Nonni  |
+| [1](./graph-0001.mediawiki) |   [graph-0001](./graph-0001/)  |  Temp Schema  |  Bryan Nonni  |
+| [2](./graph-0002.mediawiki) |   [graph-0002](./graph-0002/)  |  Base Schemas |  Bryan Nonni  |
