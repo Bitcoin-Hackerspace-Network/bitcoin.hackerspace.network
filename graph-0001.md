@@ -14,6 +14,8 @@ Current iteration of a Bitcoin Hackerspace Network memeber credential schema. Th
 
 This GRAPH is licensed under the Creative Commons Zero v1.0 Universal (CC0) license.
 
-## Documentation
+## Specification
 - [schema.json](./graph-0001/schema.json)
+
+## Implementation
 - [credential.json](./graph-0001/credential.json)
