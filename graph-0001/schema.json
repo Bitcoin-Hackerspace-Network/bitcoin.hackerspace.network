@@ -48,50 +48,16 @@
             "membership": {
                 "type": "object",
                 "required": [
-                    "issuer",
+                    "hackerspace",
                     "title",
                     "tier",
                     "description",
                     "benefits"
                 ],
                 "properties": {
-                    "issuer": {
-                        "type": "object",
-                        "description": "The details of hackerspace issuing the credential.",
-                        "required": [
-                            "website",
-                            "did",
-                            "name",
-                            "country",
-                            "state",
-                            "city"
-                        ],
-                        "properties": {
-                            "website": {
-                                "type": "string",
-                                "description": "The website of the issuing hackerspace."
-                            },
-                            "did": {
-                                "type": "string",
-                                "description": "The did:key of the issuing hackerspace."
-                            },
-                            "name": {
-                                "type": "string",
-                                "description": "The name of the issuing hackerspace."
-                            },
-                            "country": {
-                                "type": "string",
-                                "description": "The country of the issuing hackerspace."
-                            },
-                            "state": {
-                                "type": "string",
-                                "description": "The state of the issuing hackerspace."
-                            },
-                            "city": {
-                                "type": "string",
-                                "description": "The city of the issuing hackerspace."
-                            }
-                        }
+                    "hackerspace": {
+                        "type": "string",
+                        "description": "Issuing hackerspace name."
                     },
                     "title": {
                         "type": "string",
